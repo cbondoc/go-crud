@@ -9,6 +9,7 @@ import (
 // this will run before func main
 func init() {
 	initializers.LoadEnvVariables()
+	initializers.ConnectToDB()
 }
 
 func main() {
