@@ -13,6 +13,7 @@ func init() {
 }
 
 func main() {
+
 	r := gin.Default()
 	r.POST("/posts", controllers.PostsCreate)
 	r.Run()
