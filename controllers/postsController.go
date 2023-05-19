@@ -23,6 +23,7 @@ func PostsCreate(c *gin.Context) {
 	if result.Error != nil {
 		c.Status(400)
 		return
+
 	}
 	//Return it
 
