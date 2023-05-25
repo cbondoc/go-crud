@@ -10,14 +10,16 @@ To run the application, follow the steps below:
 
 2. Type the following command:
 
+```
 CompileDaemon -command="./go-crud"
+```
 
 
 This command will compile and run the `go-crud` application.
 
 3. Once the application is running, open your web browser and go to:
 
-http://localhost:3000
+Access it on [localhost port 3000](http://localhost:3000).
 
 
 This will take you to the local development server where you can interact with the CRUD application.
